@@ -66,7 +66,6 @@
 // // Check if MONGODB_URI is provided
 // if (!process.env.MONGODB_URI) {
 //   console.error('❌ Please set MONGODB_URI environment variable');
-//   console.log('Example: MONGODB_URI="mongodb+srv://username:password@cluster.mongodb.net/sm-academy" node scripts/setup-admin.js');
 //   process.exit(1);
 // }
 
