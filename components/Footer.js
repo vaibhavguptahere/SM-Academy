@@ -1,4 +1,5 @@
-import { GraduationCap, Mail, Phone, MapPin, Link } from 'lucide-react';
+import { GraduationCap, Mail, Phone, MapPin } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -17,11 +18,12 @@ export default function Footer() {
             <div className="flex space-x-4">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span className="text-sm">info@smacademy.com</span>
+                <span className="text-sm">smacademy4all@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
-                <span className="text-sm">+1 234 567 8900</span>
+                <span className="text-sm">+91 7015935020</span>
+                <span className="text-sm">+91 8950673231</span>
               </div>
             </div>
           </div>
